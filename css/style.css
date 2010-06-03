@@ -1,0 +1,65 @@
+body { font: 18px/26px Georgia, Times, "Times New Roman", serif; text-align: center; color: #231f20; }
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block; }
+p { margin-bottom: 20px; }
+a { text-decoration: underline; color: #231f20; }
+a:hover { color: darkred; }
+h1 { text-transform: uppercase; }
+
+#container { padding-left: 60px; width: 840px; margin: 0 60px; text-align: left; overflow: hidden; }
+
+#page-header { overflow: hidden; margin: 42px 0 39px; font-family: "FuturaBook", "Futura", Helvetica, Arial, sans-serif;}
+ #page-header a { text-decoration: none; }
+ #page-header a:hover { color: #231f20; }
+ #page-header h1 { font-size: 36px; float: left; padding-bottom: 20px; letter-spacing: 1px; }
+  #page-header h1 img { position: relative; top: 17px; }
+ #page-header p { padding-left: 7px; font-size: 14px; line-height: 18px; float: left; margin: 28px 0 0 81px; }
+
+article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
+ article blockquote { font-size: 24px; line-height: 32px; }
+ article header h1 { padding-left: 13px; letter-spacing: 1px; margin-top: 5px; font-size: 16px; }
+ article h2 { font-style: italic; }
+ article ol { list-style: normal; margin-left: 30px; }
+ article ul { list-style: none; }
+  article li { margin-bottom: 20px; }
+   article li strong { display: block; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; }
+    article li strong, article li strong span { font-weight: bold; text-transform: uppercase; }
+
+.case-studies article ul, .clients article ul, .resources article ul { margin-bottom: 20px; }
+ .case-studies article li, .clients article li, .resources article li { margin-bottom: 0; }
+ 
+
+#main-navigation, article { float: left; }
+
+#main-navigation { width: 160px; font: 14px/14px "FuturaBook", "Futura", Helvetica, Arial, sans-serif; letter-spacing: 1px; }
+ #main-navigation li { width: 144px; }
+  #main-navigation a { text-decoration: none; display: block; padding: 15px 13px 12px; text-transform: uppercase; }
+  #main-navigation li.selected a { background: rgba(255,255,255,0.2); color: #231f20; }
+  #main-navigation a:hover { color: darkred; }
+  #main-navigation li.selected li { font-size: 12px; padding-left: 5px; font-family: Georgia, "Times New Roman", Times, serif; letter-spacing: 0.5px; }
+   #main-navigation li.selected li:first-child { margin-top: 5px; }
+   #main-navigation li.selected li a { background: transparent; padding: 7px 13px 8px; }
+    #main-navigation li.selected li a:hover, #main-navigation li.selected li.selected a { color: darkred; }
+    
+#section-navigation { padding-left: 13px; margin: 8px 0 4px; }
+ #section-navigation ul { overflow: hidden; font: 12px Helvetica, Arial, sans-serif; text-transform: uppercase; }
+  #section-navigation li { float: left; text-align: left; padding-right: 40px; margin-bottom: 10px; }
+   #section-navigation li a { text-decoration: none; display: block; padding: 16px 0 14px; }
+    #section-navigation li a:hover, #section-navigation li.ui-tabs-selected a, #section-navigation li.ui-state-focus a { color: darkred; }
+    
+.ui-tabs-hide { display: none; }
+.tab-section { margin-bottom: 20px; padding-left: 13px; }
+.no-navigation { margin-top: -5px; }
+.no-navigation-header { margin-bottom: 23px; }
+
+.jody-michael li { margin-bottom: 5px; }
+  .jody-michael li .caps { font-size: 14px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; }
+
+.case-studies blockquote, .clients blockquote { font-size: 14px; line-height: 18px; width: 450px; }
+.our-affiliates article li { margin-bottom: 3px; font-size: 14px; }
+
+.testimonials em, .corporate.workshops em { display: block; margin-top: 12px; }
+
+.home blockquote { font-size: 36px; line-height: 48px; }
+
+#copyright { font-size: 12px; clear: left; padding-left: 195px; }
