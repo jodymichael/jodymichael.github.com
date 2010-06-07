@@ -68,8 +68,9 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
 
 #copyright { font-size: 12px; clear: left; padding-left: 195px; }
 
-#testimonial-list li { overflow: auto; }
-  #testimonial-list li br { display: block; padding-top: 16px; }
+#testimonial-list { margin-top: 12px; }
+  #testimonial-list li { overflow: auto; }
+    #testimonial-list li br { display: block; margin-top: 16px; }
   
 .testimonial-link { font: 14px/16px Helvetica, Arial, sans-serif; font-weight: bold; cursor:pointer; }
   .disabled { cursor: default; color: #231f20; text-decoration: none; }
