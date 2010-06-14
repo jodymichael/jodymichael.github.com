@@ -19,7 +19,9 @@ h1 { text-transform: uppercase; }
 
 article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
   article a { color: darkred; }
-    article a:hover { color: #231f20; }
+    article a:hover { color: #231f20; } 
+  article p, .testimonial-links { clear: left; }
+  
   article blockquote { margin-top: 7px; font-size: 24px; line-height: 32px; }
   article header h1 { padding-left: 13px; letter-spacing: 1px; margin-top: 8px; font-size: 16px; }
   article h2 { font-style: italic; }
@@ -35,7 +37,7 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
 
 #main-navigation, article { float: left; }
 
-#main-navigation { width: 160px; font: 14px/14px "FuturaBook", "Futura", Helvetica, Arial, sans-serif; letter-spacing: 1px; }
+#main-navigation { clear: left; width: 160px; font: 14px/14px "FuturaBook", "Futura", Helvetica, Arial, sans-serif; letter-spacing: 1px; }
  #main-navigation li { width: 144px; }
   #main-navigation a { text-decoration: none; display: block; padding: 15px 13px 12px; text-transform: uppercase; }
   #main-navigation li.selected a { background: rgba(255,255,255,0.2); color: #231f20; }
@@ -44,7 +46,8 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
    #main-navigation li.selected li:first-child { margin-top: 5px; }
    #main-navigation li.selected li a { background: transparent; padding: 7px 13px 8px; color: darkred; }
     #main-navigation li.selected li a:hover, #main-navigation li.selected li.selected a { color: #231f20; }
-    
+
+#section-navigation-wrapper { overflow: hidden; }    
 #section-navigation { padding-left: 13px; margin: 8px 0 4px; }
  #section-navigation ul { overflow: hidden; font: 12px Helvetica, Arial, sans-serif; text-transform: uppercase; }
   #section-navigation li { float: left; text-align: left; padding-right: 40px; margin-bottom: 10px; }
@@ -52,7 +55,7 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
     #section-navigation li a:hover, #section-navigation li.ui-tabs-selected a, #section-navigation li.ui-state-focus a { color: #231f20; }
     
 .ui-tabs-hide { display: none; }
-.tab-section { margin-bottom: 20px; padding-left: 13px; }
+.tab-section { margin-bottom: 20px; padding-left: 13px; clear: left; }
 .no-navigation { margin-top: -5px; }
 .no-navigation-header { margin-bottom: 23px; }
 
@@ -70,8 +73,7 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
 
 #testimonial-list { margin-top: 12px; }
   #testimonial-list li { overflow: auto; }
-    #testimonial-list li br { display: block; margin-top: 16px; }
-  
+
 .testimonial-link { font: 14px/16px Helvetica, Arial, sans-serif; font-weight: bold; cursor:pointer; }
   .disabled { cursor: default; color: #231f20; text-decoration: none; }
 #next { text-align: right; }
@@ -79,3 +81,6 @@ article { width: 560px; padding-left: 21px; padding-bottom: 200px; }
 .resources article a { color: #5F1C1C; }
 
 .corporate.workshops cite { margin-top: 12px; display: block; }
+
+#testimonial-list, #testimonial-list ul, #testimonial-list ul li  { background: transparent !important; }
+.spacer { height: 16px; }
